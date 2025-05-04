@@ -2,6 +2,7 @@
 #define ASPELL_HPP
 
 #include <string>
+#include "ATarget.hpp"
 
 class ASpell
 {
@@ -17,6 +18,7 @@ class ASpell
         ASpell(const ASpell& other);
         ASpell& operator=(const ASpell& other);
         virtual ~ASpell();
+        void launch(const ATarget& target) const;
 };
 
 #endif

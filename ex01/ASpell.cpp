@@ -33,3 +33,8 @@ ASpell& ASpell::operator=(const ASpell& other)
 
 ASpell::~ASpell()
 {}
+
+void ASpell::launch(const ATarget& target) const
+{
+    target.getHitBySpell(*this);
+}
