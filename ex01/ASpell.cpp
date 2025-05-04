@@ -1,4 +1,5 @@
 #include "ASpell.hpp"
+#include "ATarget.hpp"
 
 const std::string ASpell::getName() const
 {

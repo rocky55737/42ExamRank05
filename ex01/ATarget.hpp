@@ -2,7 +2,8 @@
 #define ATARGET_HPP
 
 #include <string>
-#include "ASpell.hpp"
+
+class ASpell;
 
 class ATarget
 {

@@ -17,7 +17,7 @@ class Warlock
         Warlock(const Warlock& other);
         Warlock& operator=(const Warlock& other);
     public:
-        Warlock(std::string& name, std::string& title);
+        Warlock(std::string name, std::string title);
         ~Warlock();
         void introduce();
         void learnSpell(ASpell* spell);
