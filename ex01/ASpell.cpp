@@ -10,7 +10,7 @@ const std::string ASpell::getEffects() const
     return effects;
 }
 
-ASpell::ASpell(std::string& const name, std::string& const effects) : name(name), effects(effects)
+ASpell::ASpell(const std::string& name, const std::string& effects) : name(name), effects(effects)
 {}
 
 ASpell::ASpell()
