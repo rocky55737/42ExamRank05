@@ -16,8 +16,6 @@ Warlock::~Warlock()
     learned_spells.clear();
 }
 
-void introduce();
-
 void Warlock::learnSpell(ASpell* spell)
 {
     if (spell)

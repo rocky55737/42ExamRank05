@@ -31,7 +31,6 @@ void Warlock::launchSpell(std::string spell_name, ATarget& target)
     if (spell)
     {
         spell->launch(target);
-        delete spell;
     }
 }
 
